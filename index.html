@@ -1,0 +1,272 @@
+```html
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wayne | Personal Website</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- 自己的 CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Wayne</a>
+
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 首頁 -->
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+
+                <div class="col-lg-7">
+                    <p class="subtitle">HELLO, I'M</p>
+
+                    <h1>
+                        謝米為
+                        <span>Wayne</span>
+                    </h1>
+
+                    <h2>Artificial Intelligence Student</h2>
+
+                    <p class="hero-text">
+                        我是一名就讀人工智慧相關科系的大學生，
+                        喜歡學習新的技術，也喜歡把自己的想法實際做成作品。
+                    </p>
+
+                    <a href="#about" class="btn btn-main">
+                        More About Me
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <div class="container">
+
+            <div class="section-title">
+                <p>ABOUT ME</p>
+                <h2>關於我</h2>
+            </div>
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 mb-4">
+                    <div class="about-card">
+                        <div class="about-icon">👨🏻‍💻</div>
+                        <h3>Wayne</h3>
+                        <p>Artificial Intelligence Student</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <h3>嗨，我是米為！</h3>
+
+                    <p>
+                        目前就讀亞洲大學人工智慧相關科系，
+                        對人工智慧、程式設計以及網頁開發都有興趣。
+                    </p>
+
+                    <p>
+                        我喜歡透過實際製作專案來學習，
+                        從前端網頁開始，到後端、資料庫以及 AI 應用，
+                        希望可以一步一步累積自己的作品。
+                    </p>
+
+                    <div class="info-list">
+                        <div>
+                            <strong>School</strong>
+                            <span>Asia University</span>
+                        </div>
+
+                        <div>
+                            <strong>Major</strong>
+                            <span>Artificial Intelligence</span>
+                        </div>
+
+                        <div>
+                            <strong>Location</strong>
+                            <span>Taichung, Taiwan</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section section-light">
+        <div class="container">
+
+            <div class="section-title">
+                <p>MY SKILLS</p>
+                <h2>我的技能</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>建立網頁的基本結構與內容。</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>設計網站版面與視覺效果。</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="skill-icon">🧩</div>
+                        <h3>Bootstrap</h3>
+                        <p>快速建立響應式網頁介面。</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card">
+                        <div class="skill-icon">🐍</div>
+                        <h3>Python</h3>
+                        <p>學習程式設計與 AI 相關應用。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Interests -->
+    <section id="interests" class="section">
+        <div class="container">
+
+            <div class="section-title">
+                <p>MY INTERESTS</p>
+                <h2>我的興趣</h2>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="interest-card">
+                        <div>🏸</div>
+                        <h3>Badminton</h3>
+                        <p>羽球是我平常最喜歡的運動之一。</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="interest-card">
+                        <div>🤖</div>
+                        <h3>AI</h3>
+                        <p>探索人工智慧與新的科技應用。</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="interest-card">
+                        <div>💻</div>
+                        <h3>Coding</h3>
+                        <p>喜歡把想法轉換成實際可以使用的作品。</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="interest-card">
+                        <div>🚗</div>
+                        <h3>Cars & Travel</h3>
+                        <p>喜歡開車旅行，也喜歡探索不同的地方。</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+        <div class="container text-center">
+
+            <div class="section-title">
+                <p>CONTACT</p>
+                <h2>聯絡我</h2>
+            </div>
+
+            <p class="contact-text">
+                如果你想認識我或看看我的作品，歡迎與我聯絡。
+            </p>
+
+            <a href="mailto:your-email@example.com" class="btn btn-main">
+                Email Me
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Wayne. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
+```
